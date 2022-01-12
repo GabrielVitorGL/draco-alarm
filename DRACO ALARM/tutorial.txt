@@ -1,0 +1,14 @@
+1- abra o cmd e cole os seguintes comandos: 
+pip install python-vlc
+pip install requests
+
+aperte enter, depois que terminar de instalar pode
+fechar esse cmd
+
+2- clique com o botão direito no arquivo
+draco.bat e vá em editar; 
+você precisará colocar seu email na terceira 
+linha do código, onde está escrito
+seu-email@gmail.com
+
+3- abra o draco.exe e pronto!
