@@ -1,6 +1,6 @@
 @echo off
 
-set To="gabrielvitor-jogos@hotmail.com"
+set To="seu-email@gmail.com"
 
 
 for /f "tokens=2 delims==" %%a in ('wmic OS Get localdatetime /value') do set "dt=%%a"
