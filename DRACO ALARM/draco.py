@@ -1,22 +1,7 @@
-"""
-import requests
-
-url = 'https://economia.awesomeapi.com.br/json/all/USD-BRL'
-url_draco = 'https://api.mir4global.com/wallet/prices/draco/lastest'
-loop = 1
-
-while loop == 1:
-    response = requests.get(url).json()
-    response_draco = requests.post(url_draco).json()
-
-    print(f"Draco em dollar: {float(response_draco['Data']['USDDracoRate'])}\nDraco em reais: {float(response_draco['Data']['USDDracoRate']) * float(response['USD']['low'])}")
-"""
-
 import requests
 import time
 import vlc
 import subprocess
-import time
 
 url_draco = 'https://api.mir4global.com/wallet/prices/draco/lastest'
 loop = 1
