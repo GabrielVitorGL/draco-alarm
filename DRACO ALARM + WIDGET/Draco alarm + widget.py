@@ -39,7 +39,7 @@ while loop == 1:
         response_draco = requests.post(url_draco).json()
     except:
         pass
-    trayIcon.setToolTip(f"${round(float(response_draco['Data']['USDDracoRate']),2)} / R${round(float(response_draco['Data']['USDDracoRate']) * float(response['USD']['low']),2)}  R${round(297*(float(response_draco['Data']['USDDracoRate']) * float(response['USD']['low'])),2)}")
+    trayIcon.setToolTip(f"${round(float(response_draco['Data']['USDDracoRate']),2)} / R${round(float(response_draco['Data']['USDDracoRate']) * float(response['USD']['low']),2)}")
 
     if ((float(response_draco['Data']['USDDracoRate']) >= meta) or (float(response_draco['Data']['DracoPriceWemix']) <= metac)):
         SW_HIDE = 3
